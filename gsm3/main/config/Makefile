@@ -32,7 +32,7 @@
 GSM2_VOB    = ..\..
 MAIN_VOB    = $(GSM2_VOB)\main
 BUILD_VOB   = $(MAIN_VOB)\build
-
+YJ_VOB   = $(MAIN_VOB)\build
 
 !INCLUDE $(BUILD_VOB)\build.mak
 INC      = -I. -I.\inc
